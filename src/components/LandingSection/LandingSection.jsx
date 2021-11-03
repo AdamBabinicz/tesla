@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./LandingSection.css";
-import img from "../../assets/images/2.png";
+import img from "../../assets/images/3.png";
 import gsap from "gsap";
 import { FaBars } from "react-icons/fa";
 
