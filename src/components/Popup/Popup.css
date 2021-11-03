@@ -1,0 +1,48 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.popup-inner {
+  font-family: "Tachoma", sans-serif;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  position: relative;
+  padding: 62px;
+  width: 100%;
+  height: 100%;
+  max-width: 720px;
+  max-height: 600px;
+  background: #fff;
+  text-align: left;
+  line-height: 2.5rem;
+}
+@media screen and (max-width: 676px) {
+  .popup-inner {
+    max-width: 380px;
+    width: 100%;
+    font-size: 1rem;
+    padding: 20px;
+    line-height: 1.5rem;
+    height: auto;
+  }
+}
+.popup-inner .close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+}
+button {
+  cursor: pointer;
+}
