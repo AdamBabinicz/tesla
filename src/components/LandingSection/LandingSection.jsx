@@ -43,27 +43,27 @@ const LandingSection = (props) => {
       });
   }, []);
   return (
-    <section id="landing">
+    <section id="start">
       <header className="navbar">
         <nav>
           <ul className="nav-links">
             <li className="nav-link">
-              <a data-scroll href="#landing">
+              <a data-scroll href="#start">
                 Start
               </a>
             </li>
             <li className="nav-link ">
-              <a data-scroll href="#about">
+              <a data-scroll href="#życiorys">
                 Życiorys
               </a>
             </li>
             <li className="nav-link ">
-              <a data-scroll href="#skills">
+              <a data-scroll href="#wynalazki">
                 Wynalazki
               </a>
             </li>
             <li className="nav-link ">
-              <a data-scroll href="#projects">
+              <a data-scroll href="#ciekawostki">
                 Ciekawostki
               </a>
             </li>

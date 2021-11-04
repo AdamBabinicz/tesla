@@ -5,7 +5,7 @@
   z-index: 10;
   background: #f5f6fd;
   opacity: 0;
-  position: relative;
+  position: fixed;
 }
 .mobile {
   display: none;

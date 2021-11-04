@@ -39,7 +39,7 @@ const SkillsSection = () => {
   }, []);
 
   return (
-    <section className="skills" id="skills">
+    <section className="skills" id="wynalazki">
       <header>
         <h2 className="heading" id="skills-heading">
           Wynalazki Tesli

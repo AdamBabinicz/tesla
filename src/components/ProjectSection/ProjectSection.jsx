@@ -31,7 +31,7 @@ const ProjectSection = () => {
       });
   }, []);
   return (
-    <section id="projects" className="projects">
+    <section id="ciekawostki" className="projects">
       <header>
         <h2 className="heading" id="proj-heading">
           Ciekawostki
