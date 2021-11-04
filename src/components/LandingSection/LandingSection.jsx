@@ -81,7 +81,7 @@ const LandingSection = (props) => {
       <main className="landing">
         <article>
           <h2 className="main-heading">
-            Nicola <span className="orange">Tesla</span>
+            Nikola <span className="orange">Tesla</span>
           </h2>
           <h3 className="sub-heading">
             człowiek <span className="green">z przyszłości</span>
