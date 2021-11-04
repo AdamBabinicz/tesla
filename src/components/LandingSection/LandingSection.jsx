@@ -80,12 +80,12 @@ const LandingSection = (props) => {
       </div>
       <main className="landing">
         <article>
-          <h2 className="main-heading">
+          <h1 className="main-heading">
             Nikola <span className="orange">Tesla</span>
-          </h2>
-          <h3 className="sub-heading">
+          </h1>
+          <h2 className="sub-heading">
             człowiek <span className="green">z przyszłości</span>
-          </h3>
+          </h2>
         </article>
         <img src={img} alt="..." className="landing-il" />
         <a data-scroll href="#about" className="chevron">
